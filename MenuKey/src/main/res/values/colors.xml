@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="key_item_n">#FFFFFF</color>
+    <color name="key_item_p">#DDDDDD</color>
+    <color name="order_item_mask">#CCFFFFFF</color>
+    <color name="order_item_mask_txt">#CC555555</color>
+    <color name="color_theme">#3388FF</color>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout style="@style/OptionItem">
+
+        <TextView
+            style="@style/OptionTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/main_title1" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/sw_show_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/OptionItem">
+
+        <TextView
+            style="@style/OptionTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/main_title2" />
+
+        <Button
+            android:id="@+id/btn_switch_im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_txt"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/OptionItem">
+
+        <TextView
+            style="@style/OptionTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/main_title3" />
+
+        <RadioGroup
+            android:id="@+id/rg_orientation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:checkedButton="@id/rb_vertical"
+            tools:checked="true">
+            <RadioButton
+                android:id="@+id/rb_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orientation_vertical"/>
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orientation_horizontal" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/OptionItem">
+
+        <TextView
+            android:id="@+id/tv_button_size"
+            style="@style/OptionTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/main_title4"
+            tools:text="按键大小：20dp" />
+
+        <SeekBar
+            android:id="@+id/sb_button_size"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:max="99"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:progress="20" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/OptionItem">
+
+        <TextView
+            style="@style/OptionTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/main_title5" />
+
+        <com.magicianguo.menukey.view.KeyOrderView
+            android:id="@+id/key_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</LinearLayout>

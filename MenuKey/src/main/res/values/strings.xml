@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">菜单键</string>
+    <string name="about">关于</string>
+    <string name="main_title1">显示/隐藏菜单键</string>
+    <string name="main_title2">切换输入法</string>
+    <string name="main_title3">按键排列方向</string>
+    <string name="main_title4">按键大小：%ddp</string>
+    <string name="main_title5">按键顺序</string>
+    <string name="change_txt">修改</string>
+    <string name="save_txt">保存</string>
+    <string name="cancel_txt">取消</string>
+    <string name="orientation_vertical">垂直排列</string>
+    <string name="orientation_horizontal">水平排列</string>
+    <string name="switch_txt">切换</string>
+    <string name="service_navigation_bar_label">菜单键-导航键模拟</string>
+    <string name="service_navigation_bar_desc">激活后可以模拟菜单键、导航键。</string>
+</resources>

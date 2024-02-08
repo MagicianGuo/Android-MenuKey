@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OrderItemView">
+        <attr name="img_src" format="reference" />
+        <attr name="order_type" format="integer" />
+    </declare-styleable>
+</resources>
